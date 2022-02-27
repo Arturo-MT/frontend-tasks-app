@@ -30,7 +30,7 @@ export default function TaskForm() {
 
     setLoading(true);
 
-    const res = await fetch(URL, {
+    fetch(URL, {
       method: "POST",
       body: JSON.stringify(task),
       headers: { "Content-Type": "application/json" },
