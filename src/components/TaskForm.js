@@ -36,8 +36,6 @@ export default function TaskForm() {
       headers: { "Content-Type": "application/json" },
     });
 
-    const data = await res.json();
-
     setLoading(false);
 
     navigate("/");
