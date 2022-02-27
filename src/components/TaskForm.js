@@ -38,8 +38,6 @@ export default function TaskForm() {
 
     const data = await res.json();
 
-    console.log(data);
-
     setLoading(false);
 
     navigate("/");
